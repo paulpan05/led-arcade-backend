@@ -1,9 +1,8 @@
 DROP TABLE IF EXISTS user_play;
 
 CREATE TABLE user_play (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT UNIQUE NOT NULL,
   round_number INTEGER NOT NULL,
-  time INTEGER NOT NULL,
+  millis INTEGER NOT NULL,
   score REAL NOT NULL
 );
