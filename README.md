@@ -17,3 +17,16 @@ To deactivate the virtualenv
 ```bash
 deactivate
 ```
+
+To run Flask program in Unix/Linux
+
+```bash
+chmod +x run_flask  # Do this only for the first run
+./run_flask
+```
+
+To run Flask program in Windows
+
+```bat
+run_flask.bat
+```
