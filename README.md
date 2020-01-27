@@ -30,3 +30,17 @@ To run Flask program in Windows
 ```bat
 run_flask.bat
 ```
+
+To initialize the database after writing the database schema
+
+```bash
+export FLASK_APP=flaskr
+flask init-db
+```
+
+or in Windows
+
+```bat
+SET FLASK_APP=flaskr
+flask init-db
+```
